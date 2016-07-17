@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="generator" content="rustdoc">
+    <meta name="description" content="API documentation for the Rust `Vg_ClientRequest` enum in crate `valgrind`.">
+    <meta name="keywords" content="rust, rustlang, rust-lang, Vg_ClientRequest">
+
+    <title>valgrind::Vg_ClientRequest - Rust</title>
+
+    <link rel="stylesheet" type="text/css" href="../rustdoc.css">
+    <link rel="stylesheet" type="text/css" href="../main.css">
+    
+
+    
+    
+</head>
+<body class="rustdoc">
+    <!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+    
+
+    <nav class="sidebar">
+        
+        <p class='location'><a href='index.html'>valgrind</a></p><script>window.sidebarCurrent = {name: 'Vg_ClientRequest', ty: 'enum', relpath: ''};</script><script defer src="sidebar-items.js"></script>
+    </nav>
+
+    <nav class="sub">
+        <form class="search-form js-only">
+            <div class="search-container">
+                <input class="search-input" name="search"
+                       autocomplete="off"
+                       placeholder="Click or press ‘S’ to search, ‘?’ for more options…"
+                       type="search">
+            </div>
+        </form>
+    </nav>
+
+    <section id='main' class="content enum">
+<h1 class='fqn'><span class='in-band'>Enum <a href='index.html'>valgrind</a>::<wbr><a class='enum' href=''>Vg_ClientRequest</a></span><span class='out-of-band'><span id='render-detail'>
+                   <a id="toggle-all-docs" href="javascript:void(0)" title="collapse all docs">
+                       [<span class='inner'>&#x2212;</span>]
+                   </a>
+               </span><a id='src-17' class='srclink' href='../src/valgrind/abi.rs.html#3-74' title='goto source code'>[src]</a></span></h1>
+<pre class='rust enum'>pub enum Vg_ClientRequest {
+    VG_USERREQ__RUNNING_ON_VALGRIND,
+    VG_USERREQ__DISCARD_TRANSLATIONS,
+    VG_USERREQ__CLIENT_CALL0,
+    VG_USERREQ__CLIENT_CALL1,
+    VG_USERREQ__CLIENT_CALL2,
+    VG_USERREQ__CLIENT_CALL3,
+    VG_USERREQ__COUNT_ERRORS,
+    VG_USERREQ__GDB_MONITOR_COMMAND,
+    VG_USERREQ__MALLOCLIKE_BLOCK,
+    VG_USERREQ__RESIZEINPLACE_BLOCK,
+    VG_USERREQ__FREELIKE_BLOCK,
+    VG_USERREQ__CREATE_MEMPOOL,
+    VG_USERREQ__DESTROY_MEMPOOL,
+    VG_USERREQ__MEMPOOL_ALLOC,
+    VG_USERREQ__MEMPOOL_FREE,
+    VG_USERREQ__MEMPOOL_TRIM,
+    VG_USERREQ__MOVE_MEMPOOL,
+    VG_USERREQ__MEMPOOL_CHANGE,
+    VG_USERREQ__MEMPOOL_EXISTS,
+    VG_USERREQ__PRINTF,
+    VG_USERREQ__PRINTF_BACKTRACE,
+    VG_USERREQ__PRINTF_VALIST_BY_REF,
+    VG_USERREQ__PRINTF_BACKTRACE_VALIST_BY_REF,
+    VG_USERREQ__STACK_REGISTER,
+    VG_USERREQ__STACK_DEREGISTER,
+    VG_USERREQ__STACK_CHANGE,
+    VG_USERREQ__LOAD_PDB_DEBUGINFO,
+    VG_USERREQ__MAP_IP_TO_SRCLOC,
+    VG_USERREQ__CHANGE_ERR_DISABLEMENT,
+    VG_USERREQ__VEX_INIT_FOR_IRI,
+}</pre><h2 class='variants'>Variants</h2>
+<span id='variant.VG_USERREQ__RUNNING_ON_VALGRIND' class='variant'><code>VG_USERREQ__RUNNING_ON_VALGRIND</code></span><span id='variant.VG_USERREQ__DISCARD_TRANSLATIONS' class='variant'><code>VG_USERREQ__DISCARD_TRANSLATIONS</code></span><span id='variant.VG_USERREQ__CLIENT_CALL0' class='variant'><code>VG_USERREQ__CLIENT_CALL0</code></span><span id='variant.VG_USERREQ__CLIENT_CALL1' class='variant'><code>VG_USERREQ__CLIENT_CALL1</code></span><span id='variant.VG_USERREQ__CLIENT_CALL2' class='variant'><code>VG_USERREQ__CLIENT_CALL2</code></span><span id='variant.VG_USERREQ__CLIENT_CALL3' class='variant'><code>VG_USERREQ__CLIENT_CALL3</code></span><span id='variant.VG_USERREQ__COUNT_ERRORS' class='variant'><code>VG_USERREQ__COUNT_ERRORS</code></span><span id='variant.VG_USERREQ__GDB_MONITOR_COMMAND' class='variant'><code>VG_USERREQ__GDB_MONITOR_COMMAND</code></span><span id='variant.VG_USERREQ__MALLOCLIKE_BLOCK' class='variant'><code>VG_USERREQ__MALLOCLIKE_BLOCK</code></span><span id='variant.VG_USERREQ__RESIZEINPLACE_BLOCK' class='variant'><code>VG_USERREQ__RESIZEINPLACE_BLOCK</code></span><span id='variant.VG_USERREQ__FREELIKE_BLOCK' class='variant'><code>VG_USERREQ__FREELIKE_BLOCK</code></span><span id='variant.VG_USERREQ__CREATE_MEMPOOL' class='variant'><code>VG_USERREQ__CREATE_MEMPOOL</code></span><span id='variant.VG_USERREQ__DESTROY_MEMPOOL' class='variant'><code>VG_USERREQ__DESTROY_MEMPOOL</code></span><span id='variant.VG_USERREQ__MEMPOOL_ALLOC' class='variant'><code>VG_USERREQ__MEMPOOL_ALLOC</code></span><span id='variant.VG_USERREQ__MEMPOOL_FREE' class='variant'><code>VG_USERREQ__MEMPOOL_FREE</code></span><span id='variant.VG_USERREQ__MEMPOOL_TRIM' class='variant'><code>VG_USERREQ__MEMPOOL_TRIM</code></span><span id='variant.VG_USERREQ__MOVE_MEMPOOL' class='variant'><code>VG_USERREQ__MOVE_MEMPOOL</code></span><span id='variant.VG_USERREQ__MEMPOOL_CHANGE' class='variant'><code>VG_USERREQ__MEMPOOL_CHANGE</code></span><span id='variant.VG_USERREQ__MEMPOOL_EXISTS' class='variant'><code>VG_USERREQ__MEMPOOL_EXISTS</code></span><span id='variant.VG_USERREQ__PRINTF' class='variant'><code>VG_USERREQ__PRINTF</code></span><span id='variant.VG_USERREQ__PRINTF_BACKTRACE' class='variant'><code>VG_USERREQ__PRINTF_BACKTRACE</code></span><span id='variant.VG_USERREQ__PRINTF_VALIST_BY_REF' class='variant'><code>VG_USERREQ__PRINTF_VALIST_BY_REF</code></span><span id='variant.VG_USERREQ__PRINTF_BACKTRACE_VALIST_BY_REF' class='variant'><code>VG_USERREQ__PRINTF_BACKTRACE_VALIST_BY_REF</code></span><span id='variant.VG_USERREQ__STACK_REGISTER' class='variant'><code>VG_USERREQ__STACK_REGISTER</code></span><span id='variant.VG_USERREQ__STACK_DEREGISTER' class='variant'><code>VG_USERREQ__STACK_DEREGISTER</code></span><span id='variant.VG_USERREQ__STACK_CHANGE' class='variant'><code>VG_USERREQ__STACK_CHANGE</code></span><span id='variant.VG_USERREQ__LOAD_PDB_DEBUGINFO' class='variant'><code>VG_USERREQ__LOAD_PDB_DEBUGINFO</code></span><span id='variant.VG_USERREQ__MAP_IP_TO_SRCLOC' class='variant'><code>VG_USERREQ__MAP_IP_TO_SRCLOC</code></span><span id='variant.VG_USERREQ__CHANGE_ERR_DISABLEMENT' class='variant'><code>VG_USERREQ__CHANGE_ERR_DISABLEMENT</code></span><span id='variant.VG_USERREQ__VEX_INIT_FOR_IRI' class='variant'><code>VG_USERREQ__VEX_INIT_FOR_IRI</code></span></section>
+    <section id='search' class="content hidden"></section>
+
+    <section class="footer"></section>
+
+    <aside id="help" class="hidden">
+        <div>
+            <h1 class="hidden">Help</h1>
+
+            <div class="shortcuts">
+                <h2>Keyboard Shortcuts</h2>
+
+                <dl>
+                    <dt>?</dt>
+                    <dd>Show this help dialog</dd>
+                    <dt>S</dt>
+                    <dd>Focus the search field</dd>
+                    <dt>&larrb;</dt>
+                    <dd>Move up in search results</dd>
+                    <dt>&rarrb;</dt>
+                    <dd>Move down in search results</dd>
+                    <dt>&#9166;</dt>
+                    <dd>Go to active search result</dd>
+                    <dt>+</dt>
+                    <dd>Collapse/expand all sections</dd>
+                </dl>
+            </div>
+
+            <div class="infos">
+                <h2>Search Tricks</h2>
+
+                <p>
+                    Prefix searches with a type followed by a colon (e.g.
+                    <code>fn:</code>) to restrict the search to a given type.
+                </p>
+
+                <p>
+                    Accepted types are: <code>fn</code>, <code>mod</code>,
+                    <code>struct</code>, <code>enum</code>,
+                    <code>trait</code>, <code>type</code>, <code>macro</code>,
+                    and <code>const</code>.
+                </p>
+
+                <p>
+                    Search functions by type signature (e.g.
+                    <code>vec -> usize</code> or <code>* -> vec</code>)
+                </p>
+            </div>
+        </div>
+    </aside>
+
+    
+
+    <script>
+        window.rootPath = "../";
+        window.currentCrate = "valgrind";
+        window.playgroundUrl = "";
+    </script>
+    <script src="../jquery.js"></script>
+    <script src="../main.js"></script>
+    
+    <script defer src="../search-index.js"></script>
+</body>
+</html>
